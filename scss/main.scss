@@ -1,0 +1,16 @@
+@import "utils/variables";
+
+@import "base/reset",
+"base/tipografia";
+
+@import "layout/header",
+"layout/Footer.scss";
+
+@import "components/botones",
+"components/tarjetas";
+
+@import "pages/hardware",
+"pages/novedades",
+"pages/reviews",
+"pages/videojuegos";
+

@@ -1,158 +1,145 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-/* header */
-header {
-    background-color: purple;
-    padding: 0%;
-    height: 70%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.btn {
+  color: white;
 }
 
-
-/* logo */
-header img {
-    background-image: url(../image/Mundo\ gamer\ \(1\).png);
-    background-position: right;
-    background-size: cover;
-    height: 10vh;
+ul {
+  color: white;
 }
 
-/* navegador */
-header nav {
-    width: 60%;
-}
-
-header ul {
-    display: flex;
-    justify-content: space-around;
-}
-
-
-/* portada y texto */
 .placa {
-    background-image: url(../image/1648628694_178538_1648628726_portada_normal.jpg);
-    background-color: rgba(10, 6, 10, 0.644);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 15vh;
-    display: flex;
-    justify-content: auto;
-    align-items: center;
-    color: purple;
-    padding-left: 400px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-    
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-/* articulos */
-.destacado{
-    text-align: center;
-    background-color: purple;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.interes {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.notas{
-    background-color: rgba(10, 8, 10, 0.781);
-    width: 550px; 
-    text-align: center; 
-    display: inline-block; 
-    padding: 15px;
-    border-radius: 8px;
-    margin: 10px;
-    color: purple;
+header {
+  background-color: purple;
+  padding: 0%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  background-image: url(../image/Mundo\ gamer\ \(1\).png);
+  background-position: right;
+  background-size: cover;
+  height: 10vh;
+}
+header nav {
+  width: 60%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  color: white;
 }
 
-.interes{
-    background-color: purple;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.redes {
+  background-color: purple;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  list-style: none;
 }
-.articulos_2{
-    border: 5px solid black;
-    width: 550px; 
-    text-align: center; 
-    display: inline-block; 
-    padding: 15px;
-    border-radius: 8px;
-    margin: 10px;
-    color: purple;
+.redes .logos {
+  height: 10vh;
 }
-.redes{
-    
-    background-color:  purple;
-    height: 100%;
-    width: 100%;
-    
-    display: flex;
-    justify-content: space-around;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    list-style: none;
+.redes ul {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
 }
-.logos{
-    height: 10vh;
+
+.placa {
+  background-color: rgba(10, 6, 10, 0.644);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 15vh;
+  display: flex;
+  justify-content: auto;
+  align-items: center;
+  color: purple;
+  padding-left: 400px;
 }
-div ul {
-    display: flex;
-    justify-content: space-around;
-    width: 60%
+
+.destacado {
+  text-align: center;
+  background-color: purple;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.notas-2{
-    background-color: rgba(10, 8, 10, 0.781);
-    width: 550px; 
-    text-align: center; 
-    display: inline-block; 
-    padding: 10px;
-    border-radius: 8px;
-    margin: 10px;
-    color: purple;
+
+.notas {
+  background-color: rgba(10, 8, 10, 0.781);
+  width: 550px;
+  text-align: center;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px;
+  color: purple;
 }
-.nota{
-    border: 3cm;
-    background-color:rgba(128, 0, 128, 0.404);
-    height: 750%;
-    width: 100%;
-    text-align:center;
-    border-bottom: 14px solid black;
-    }
-    .texto{
-        display: table;
-        height: 220px;
-        margin: 2rem auto;
-        text-align: center;
-        width: 800px;
-    }
-    .superior{
-        background-color: purple;
-    }
-    .encabezado{
-        color: white ;
-        font-family: initial;
-    }
-    .imagen{
-        background-color: pink;
-    }
-    .pie{
-        background-color: purple;
-        color: white;
-    }
-    .not{
-        background-color: rgba(10, 8, 10, 0.781);
-        width: 550px; 
-        text-align: center; 
-        display: inline-block; 
-        padding: 10px;
-        border-radius: 8px;
-        margin: 10px;
-        color: white;
-    }
+
+.interes {
+  background-color: purple;
+  text-align: center;
+}
+
+.articulos_2 {
+  border: 5px solid black;
+  width: 550px;
+  text-align: center;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px;
+  color: purple;
+}
+
+.superior {
+  background-color: purple;
+}
+
+.not {
+  background-color: rgba(10, 8, 10, 0.781);
+  width: 550px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  color: white;
+}
+
+.pie {
+  background-color: purple;
+  color: white;
+}
+
+.notas-2 {
+  background-color: rgba(10, 8, 10, 0.781);
+  width: 550px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  color: purple;
+}
+
+/*# sourceMappingURL=Style.css.map */
