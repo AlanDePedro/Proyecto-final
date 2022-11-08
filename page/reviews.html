@@ -5,67 +5,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mundo gamer es una revista digital en Mataderos">
+    <title>Mundo gamer | Mataderos</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../Css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title>reviews</title>
 </head>
 
 <body>
-    <header>
-        <a href="../index.html"> <img src="../image/Mundo gamer (1).png" alt="" class="logo__mundo gaming"> </a>
-        <nav>
-            <ul>
-                <li><a href="../page/novedades.html">Novedades</a></li>
-                <li><a href="../page/videojuegos.html">Videojuegos</a></li>
-                <li><a href="../page/hardware.html">Hardware</a></li>
-                <li><a href="../page/reviews.html">Reviews</a></li>
-
-            </ul>
+    <header class="navbar navbar-expand-lg barra-menu">
+        <nav class="container">
+            <a class="navbar-brand barra-enlace" href="../index.html"><img src="../image/mundo-gamer.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link barra-enlace" href="../page/novedades.html">Novedades</a>
+                    <a class="nav-link barra-enlace" href="../page/videojuegos.html">Vidoeojuegos</a>
+                    <a class="nav-link barra-enlace" href="../page/hardware.html">Hardware</a>
+                    <a class="nav-link barra-enlace" href="../page/reviews.html">Reviews</a>
+                    <a class="nav-link barra-enlace" href="../page/formulario.html">Formulario</a>
+                </div>
+            </div>
         </nav>
     </header>
-    <div class="notas-2">
-        <h2>Especificaciones sobre los monitores Aorus</h2>
-        <img src="../image/aorusmonitor.jpg" alt="" width="500px">
-    </div>
+    <main>
+        <section class="destacado">
+            <article>
+                <div class="divnotas">
+                    <div class="notas">
+                        <h2 class="notas__title">Especificaciones sobre los monitores Aorus</h2>
+                        <img class="notas__img" src="../image/aorusmonitor.jpg" alt="">
 
-    <div class="notas-2">
-        <h2>probamos una semana entera el apple watch y te decimos que tal su uso</h2>
-        <img src="../image/applewatch.jpg" alt="" width="500px">
-    </div>
+                        <div class="notas">
+                            <h2 class="notas__title">probamos una semana entera el apple watch y te decimos que tal su
+                                uso
+                            </h2>
+                            <img class="notas__img" src="../image/applewatch.jpg" alt="">
+                        </div>
 
-    <div class="notas-2">
-        <h2>Youtuber customiza la ps5 con un diseño espectacular</h2>
-        <img src="../image/ps5.jpg" alt="" width="500px">
-    </div>
+                        <div class="notas">
+                            <h2 class="notas__title">Youtuber customiza la ps5 con un diseño espectacular</h2>
+                            <img class="notas__img" src="../image/ps5.jpg" alt="">
+                        </div>
+                        <div class="notas">
+                            <h2 class="notas__title">Samsung lanza proyectores portatiles</h2>
+                            <img class="notas__img" src="../image/proyector.jpg" alt="">
+                        </div>
+                        <div class="notas">
+                            <h2 class="notas__title">Muchos creadores de contenido que empezaron por la cuarentena han
+                                dejado de streamear</h2>
+                            <img class="notas__img" src="../image/twitch.jpg" alt="">
+                        </div>
+                        <div class="notas">
+                            <h2 class="notas__title">Muchos usuarios prefieron aun quedarse con windows 10 en vez de
+                                pasarse
+                                a windows 11</h2>
+                            <img class="notas__img" src="../image/windows.jpeg" alt="">
+                        </div>
 
-    <div class="notas-2">
-        <h2>Samsung lanza proyectores portatiles</h2>
-        <img src="../image/proyector.jpg" alt="" width="500px">
-    </div>
+                    </div>
+            </article>
 
-    <div class="notas-2">
-        <h2>Muchos creadores de contenido que empezaron por la cuarentena han dejado de streamear</h2>
-        <img src="../image/twitch.jpg" alt="" width="500px">
-    </div>
-
-    <div class="notas-2">
-        <h2>Muchos usuarios prefieron aun quedarse con windows 10 en vez de pasarse a windows 11</h2>
-        <img src="../image/windows.jpeg" alt="" width="500px">
-    </div>
-
-    
+        </section>
+        <footer>
+            <div class="redes">
+                <a href="https://api.whatsapp.com/send/?phone=5491165189669" target="_blank"><i
+                        class="bi bi-whatsapp text-black"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram text-black"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook text-black"></i></a>
 
 
-    <div class="redes">
+            </div>
+        </footer>
 
-        <img src="../image/conjunto-de-logotipos-de-redes-sociales-red-social-popular-2j0bkhn.png" alt="" class="logos">
-        <ul>
-            <li>sobre nosotros</li>
-            <li>condiciones de uso</li>
-            <li>privacidad</li>
-            <li>equipo de trabajo</li>
-
-        </ul>
-    </div>
+        <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

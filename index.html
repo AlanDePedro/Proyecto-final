@@ -5,80 +5,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mundo gamer es una revista digital en Mataderos">
+    <title>Mundo gamer | Mataderos</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="./Css/Style.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title>Mundo Gaming</title>
 </head>
 
 <body>
-    <header>
-        <img src="./image/Mundo gamer (1).png" alt="" class="logo__mundo gaming ">
-        <nav>
-            <ul class="btn">
-                <li><a href="./page/novedades.html">Novedades</a></li>
-                <li><a href="./page/videojuegos.html">Videojuegos</a></li>
-                <li><a href="./page/hardware.html">Hardware</a></li>
-                <li><a href="./page/reviews.html">Reviews</a></li>
-
-            </ul>
+    <header class="navbar navbar-expand-lg barra-menu">
+        <nav class="container">
+            <a class="navbar-brand barra-enlace" href="./index.html"><img src="./image/mundo-gamer.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link barra-enlace" href="./page/novedades.html">Novedades</a>
+                    <a class="nav-link barra-enlace" href="./page/videojuegos.html">Vidoeojuegos</a>
+                    <a class="nav-link barra-enlace" href="./page/hardware.html">Hardware</a>
+                    <a class="nav-link barra-enlace" href="./page/reviews.html">Reviews</a>
+                    <a class="nav-link barra-enlace" href="../page/formulario.html">Formulario</a>
+                </div>
+            </div>
         </nav>
     </header>
+
     <!-- articulos -->
-    <main class="articulos">
-        <section class="placa">
-            
-            <h2>Comparacion 3090ti y la 3080ti</h2>
+    <main>
+
+        <section class="destacado">
+            <article>
+                <h1 class="animate__animated animate__bounce animate__infinite interes">lo mas destacado de la semana</h1>
+                <div class="divnotas">
+                    <div class="notas">
+                        <h2 class="notas__title">tomb raider gratis en epic games</h2>
+                        <img class="notas__img"  src="./image/egs-shadowofthetombraiderdefinitiveedition-eidosmontralcrystaldynamicsnixxessoftware-s1-2560x1440-eca6506e95a1_2560x1440-193582a5fd76a593804e0171d6395cf4.jpg"
+                            alt="">
+                    </div>
+                    <div class="notas">
+                        <h2 class="notas__title" >Opinion sobre digimon survival</h2>
+                        <img class="notas__img" src="./image/descargar.jpg" alt="">
+                    </div>
+                    <div class="notas">
+                        <h2 class="notas__title">los mejores juegos retro que si o si debes jugar</h2>
+                        <img class="notas__img" src="./image/images.jpg" alt="">
+                    </div>
+                    <div class="notas">
+                        <h2 class="notas__title">te decimos que teclado es mejor dependiendo el uso que le vayas a dar</h2>
+                        <a href="./page/teclado-articulo.html"><img class="notas__img" src="./image/teclado.png" alt=""></a>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="articulos_2">
+                    <h3>Tenchu merece un remake y te contamos el porque</h3>
+                    <img src="./image/tenchu.jpg" alt="">
+                </div>
+                <div class="articulos_2">
+                    <h3> Opinion sobre los nuevos juegos de pokemon </h3>
+                    <img src="./image/pkmn.jpg" alt="">
+                </div>
         </section>
-        <div class="destacado">
-            <h2 class="animate__animated animate__bounce animate__infinite">lo mas destacado de la semana</h2>
-        </div>
-        <div class="notas">
-            <h2>tomb raider gratis en epic games</h2>
-            <img src="./image/egs-shadowofthetombraiderdefinitiveedition-eidosmontralcrystaldynamicsnixxessoftware-s1-2560x1440-eca6506e95a1_2560x1440-193582a5fd76a593804e0171d6395cf4.jpg"
-                alt="">
-        </div>
-        <div class="notas">
-            <h2>Opinion sobre digimon survival</h2>
-            <img src="./image/descargar.jpg" alt="">
-        </div>
-        <div class="notas">
-            <h2>los mejores juegos retro que si o si debes jugar</h2>
-            <img src="./image/images.jpg" alt="">
-        </div>
-        <div class="notas">
-            <h2>te decimos que teclado es mejor dependiendo el uso que le vayas a dar</h2>
-            <a href="./page/teclado-articulo.html"><img src="./image/teclado.png" alt=""></a>
-        </div>
     </main>
-    <!-- otros articulos -->
-    <div class="interes">
-        <h2>Puede que te interese</h2>
-    </div>
-    <article>
-        <div class="articulos_2">
-            <h3>Tenchu merece un remake y te contamos el porque</h3>
-            <img src="./image/tenchu.jpg" alt="">
-        </div>
-        <div class="articulos_2">
-            <h3> Opinion sobre los nuevos juegos de pokemon </h3>
-            <img src="./image/pkmn.jpg" alt="">
-        </div>
-    </article>
+
     <!-- redes -->
-    <div class="redes">
+    <footer>
+        <div class="redes">
+            <a href="https://api.whatsapp.com/send/?phone=5491165189669" target="_blank"><i
+                    class="bi bi-whatsapp text-black"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram text-black"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook text-black"></i></a>
 
-        <img src="./image/conjunto-de-logotipos-de-redes-sociales-red-social-popular-2j0bkhn.png" alt="" class="logos">
-        <ul>
-            <li>sobre nosotros</li>
-            <li>condiciones de uso</li>
-            <li>privacidad</li>
-            <li>equipo de trabajo</li>
 
-        </ul>
-    </div>
+        </div>
 
+    </footer>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

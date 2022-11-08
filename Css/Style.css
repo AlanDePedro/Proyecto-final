@@ -12,8 +12,8 @@ ul {
   color: white;
 }
 
-ul {
-  color: white;
+body {
+  background-color: pink;
 }
 
 .placa {
@@ -24,45 +24,35 @@ ul {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-header {
-  background-color: purple;
-  padding: 0%;
-  height: 70%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.barra-menu {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgba(245, 245, 245, 0.959);
+  font-size: 1.2rem;
+  font-weight: bold;
 }
-header img {
-  background-image: url(../image/Mundo\ gamer\ \(1\).png);
-  background-position: right;
-  background-size: cover;
-  height: 10vh;
+
+.barra-enlace:hover {
+  font-style: italic;
 }
-header nav {
-  width: 60%;
+
+.barra-menu {
+  background-color: rgb(146, 5, 146);
 }
-header nav ul {
-  display: flex;
-  justify-content: space-around;
-  color: white;
+
+footer {
+  background-color: rgb(146, 5, 146);
+  margin-top: 40px;
 }
 
 .redes {
-  background-color: purple;
-  height: 100%;
-  width: 100%;
+  font-size: 2rem;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  list-style: none;
-}
-.redes .logos {
-  height: 10vh;
-}
-.redes ul {
-  display: flex;
-  justify-content: space-around;
-  width: 60%;
+  align-items: center;
+  width: 200px;
+  padding: 30px;
+  margin: auto;
 }
 
 .placa {
@@ -80,21 +70,43 @@ header nav ul {
 
 .destacado {
   text-align: center;
-  background-color: purple;
+  background-color: pink;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: pink;
+}
+
+.divnotas {
+  width: 90%;
+  margin: 50px auto;
 }
 
 .notas {
   background-color: rgba(10, 8, 10, 0.781);
-  width: 550px;
+  width: 70%;
   text-align: center;
   display: inline-block;
   padding: 15px;
   border-radius: 8px;
   margin: 10px;
-  color: purple;
+  color: pink;
 }
 
+.notas__img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .divnotas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .notas {
+    width: 45%;
+  }
+}
 .interes {
   background-color: purple;
   text-align: center;
@@ -108,27 +120,8 @@ header nav ul {
   padding: 15px;
   border-radius: 8px;
   margin: 10px;
-  color: purple;
-}
-
-.superior {
-  background-color: purple;
-}
-
-.not {
+  color: pink;
   background-color: rgba(10, 8, 10, 0.781);
-  width: 550px;
-  text-align: center;
-  display: inline-block;
-  padding: 10px;
-  border-radius: 8px;
-  margin: 10px;
-  color: white;
-}
-
-.pie {
-  background-color: purple;
-  color: white;
 }
 
 .notas-2 {
@@ -139,7 +132,7 @@ header nav ul {
   padding: 10px;
   border-radius: 8px;
   margin: 10px;
-  color: purple;
+  color: pink;
 }
 
-/*# sourceMappingURL=Style.css.map */
+/*# sourceMappingURL=style.css.map */

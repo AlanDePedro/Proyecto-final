@@ -11,11 +11,10 @@
     <link rel="stylesheet" href="../Css/Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <title>articulo-teclados</title>
+    <title>Document</title>
 </head>
 
 <body>
-
     <header class="navbar navbar-expand-lg barra-menu">
         <nav class="container">
             <a class="navbar-brand barra-enlace" href="../index.html"><img src="../image/mundo-gamer.png" alt=""></a>
@@ -34,32 +33,41 @@
             </div>
         </nav>
     </header>
-    <section>
-        <div class="row imagen d-flex justify-content-center border-bottom">
-            <img src="../image/captura de pantalla 2022-09-10 114806.png" alt="" class="w-50 imagen">
+    <div class="container formulario">
+        <form class="row g-5">
+            <div class="col-6">
+                <label for="emailimput" class="form-label">Email</label>
+                <input type="email" class="form-control" id="emailimput" placeholder="Escribe tu email">
+            </div>
+            <div class="col-6">
+                <label for="Inputpass" class="form-label">Contaseña</label>
+                <input type="password" class="form-control" id="InputPass" placeholder="Escribe tu contraseña">
+            </div>
+        </form>
+    </div>
+    <div class="col-6">
+        <label for="inputAdress" class="form-label">Direccion</label>
+        <input type="text" class="form-cotrol" id="inputAdress" placeholder="Direccion">
+    </div>
+    <div class="col-6">
+        <label for="cityinput" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="cityinput" placeholder="Ciudad">
+        <div class="col-6">
+            <label for="countryinput" class="form-label"> Pais</label>
+            <input type="text" class="form-control" id="countryinput" placeholder="Pais">
+            <div class="col-6">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkterms">
+                </div>
+                <label for="checkterms" class="form-check-label">Acepto los terminos</label>
+
+
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Registrate</button>
+            </div>
         </div>
-        <div class="text-center">
-            <h2 class="h3 fw-bold">
-                Que teclado es recomendable dependiento del uso
-            </h2>
-            <p class="h6">En estos ultimos años tenemos diferentes teclados, desde telcados completos hasta 50% pero
-                muchos se
-                preguntan que teclado es mejor. en una entrevista a carolina di paola alias geeka
-                nos mostro todos los diferentes teclados que tiene y utiliza, nos comento que mayormente usa teclados de
-                60&
-                para jugar, trabajar, nos comento que ella antes usaba teclados completos
-                pero cuando probo un 60& dijo lo siguiente "es un viaje de ida" se siente mucho mas comodda con ese tipo
-                de
-                teclados, probo de diferentes marcas con diferentes kikaps, cableado y bluetooth
-                entonces ¿es mejor usar un teclado 60%? la respuesta es que depende mucho del tamaño de la mano que
-                tengamos, nuestra comodidad a la hora de apoyar las manos, tipear o jugar.
-                podes usar un teclado 60% para el trabajo o estudio y cambiar por uno completo para jugar, utilizar un
-                teclado completo para tu dia a dia o un teclado 60% nuestra mejor recomendacion
-                es que antes de comprar un teclado primero pruebes tu comidad, si se te hace practico, dependiendo el
-                espacio que tengas en tu sep up, la utilidad que la vayas a dar, una vez establecido
-                todos estos puntos ya puede considerar que teclado comprar. </p>
-        </div>
-    </section>
+    </div>
     <footer>
         <div class="redes">
             <a href="https://api.whatsapp.com/send/?phone=5491165189669" target="_blank"><i
@@ -70,22 +78,7 @@
 
         </div>
 
-
-
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 

@@ -1,20 +1,16 @@
-.redes{
-    
-    background-color:  purple;
-    height: 100%;
-    width: 100%;
-    
-    display: flex;
-    justify-content: space-around;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    list-style: none;
-    .logos{
-        height: 10vh;
-    }
-    ul {
-        display: flex;
-        justify-content: space-around;
-        width: 60%
-    }
+footer{
+    background-color:rgb(146, 5, 146);
 
+margin-top: 40px;
+}
+.redes{
+    font-size:2rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    padding: 30px;
+    margin: auto;
+   
 }

@@ -1,6 +1,17 @@
-.placa{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+.placa {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-.interes{
+
+.interes {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.barra-menu {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgba(245, 245, 245, 0.959);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.barra-enlace:hover{
+    font-style: italic;
 }

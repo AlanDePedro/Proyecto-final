@@ -1,24 +1,3 @@
-
-header {
-    background-color: purple;
-    padding: 0%;
-    height: 70%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    img {
-        background-image: url(../image/Mundo\ gamer\ \(1\).png);
-        background-position: right;
-        background-size: cover;
-        height: 10vh;
-    }
-    nav {
-        width: 60%;
-        ul {
-            display: flex;
-            justify-content: space-around;
-            color: white
-        }
-        
-    }
+.barra-menu{
+    background-color:rgb(146, 5, 146)
 }
